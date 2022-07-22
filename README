@@ -1,0 +1,22 @@
+
+I have use H2 memory Db ,  I have parsed the csv documents and upload them direct to DB
+
+So to run it just :
+
+1 - Import project as maven
+2 - Run
+
+Here there are some endpoint to test them direct from PostMan
+
+
+http://localhost:8080/user/user/getAllUserBorrowed
+
+http://localhost:8080/user/user/getAllUserNotBorrowed
+
+http://localhost:8080/user/getAllUserByDate?from=5/14/2008
+
+http://localhost:8080/book/getAllBooksByDates?from=5/14/2008&to=5/14/2011
+
+http://localhost:8080/book/getAllBooksNotBorrowed
+
+
